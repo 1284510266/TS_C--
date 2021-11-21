@@ -1,0 +1,16 @@
+1,所有成员属性设为私有，可以控制读写权限。
+2,对与写权限，我们可以监测数据的有效性。
+
+例如：
+class Person{
+public：
+    //公共接口
+    void setName(string name){
+        L_name = name;
+    }
+private:
+    string L_name;
+    string L_lover;
+    int L_age;
+
+};

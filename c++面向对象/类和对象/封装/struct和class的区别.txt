@@ -1,0 +1,1 @@
+1,struct默认权限为共有，public；class默认权限为私有，private
